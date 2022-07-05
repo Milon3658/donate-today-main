@@ -6,7 +6,7 @@ body{
     linear-gradient(to top,#121212 0%, rgba(18, 18, 18, 0) 100%),
     url('images/donation0.jpg');
     background-repeat: no-repeat;
-    height: 600px;
+    height: 650px;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -81,6 +81,7 @@ body{
     color: #FF5959;
 }
 #type-amount{
+    padding-bottom: 10px;
     font-family: 'Inter', sans-serif;
     color: #707070;
     font-size: 18px;
@@ -108,4 +109,76 @@ body{
     justify-content: center;
     align-items: center;
     margin-bottom: 100px;
+}
+.donation-plan-texts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.donation-plan-texts h1{
+    font-family: 'Inter', sans-serif;
+    color: #121212;
+    font-size: 45px;
+    font-weight: 700px;
+    margin: 0;
+}
+.donation-plan-texts p{
+    font-family: 'Poppins', sans-serif;
+    color: #707070;
+    font-size: 18px;
+    margin-top: 20px;
+    text-align: center;
+}
+#Donation-Plan{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.Single-Donation-Plan img{
+    height: 45;
+    width: 45;
+    padding-top: 10px;
+    padding-left: 25px;
+    padding-bottom: 10px;
+}
+.Single-Donation-Plan h4{
+    font-family: 'Inter', sans-serif;
+    color: #121212;
+    font-size: 24px;
+    font-weight: 600px;
+    margin: 0;
+    padding-top: 20px;
+    padding-left: 25px;
+}
+.Single-Donation-Plan p{
+    font-family: 'Poppins', sans-serif;
+    color: #707070;
+    font-size: 16px;
+    margin-top: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    /* text-align: justify; */
+}
+.Single-Donation-Plan{
+    height: 350px;
+    width: 360px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.food{
+    background-color: rgba(79, 157, 166, 0.1);
+}
+.shelter{
+    background-color:rgba(255, 89, 89, 0.1);
+}
+.education{
+    background-color: rgba(255, 244, 214, 1);
 }
