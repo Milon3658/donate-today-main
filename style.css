@@ -1,0 +1,37 @@
+body{
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+}
+.donation-bannar{
+    background-image:
+    linear-gradient(to top,#121212 0%, rgba(18, 18, 18, 0) 100%),
+    url('images/donation0.jpg');    /* background-image: ; */
+    background-repeat: no-repeat;
+    height: 600px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.donation-bannar h1{
+    color: #fff;
+    font-size: 65px;
+    font-weight: 700px;
+    margin: 0;
+
+}
+.donation-bannar p{
+    color: #fff;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.donation-bannar a{
+    text-decoration: none;
+    background-color: #FF5959;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
